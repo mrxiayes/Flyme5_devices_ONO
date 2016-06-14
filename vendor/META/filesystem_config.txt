@@ -9,8 +9,6 @@ system/app/Bluetooth/Bluetooth.apk 0 0 644 selabel=u:object_r:system_file:s0 cap
 system/app/Bluetooth/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Bluetooth/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Bluetooth/lib/arm/libbluetooth_jni.so 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Browser 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/Browser/Browser.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Calculator 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Calculator/Calculator.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Calendar 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -108,6 +106,8 @@ system/app/SoundRecorder 0 0 755 selabel=u:object_r:system_file:s0 capabilities=
 system/app/SoundRecorder/SoundRecorder.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Stk 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Stk/Stk.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/TeleyService 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/TeleyService/TeleyService.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Terminal 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Terminal/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Terminal/lib/arm64 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -389,6 +389,7 @@ system/etc/audio_policy.conf 0 0 644 selabel=u:object_r:system_file:s0 capabilit
 system/etc/bash 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/etc/bash/bash_logout 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/etc/bash/bashrc 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/etc/blkid.tab 0 0 600 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/etc/bluetooth 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/etc/bluetooth/auto_pair_devlist.conf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/etc/bluetooth/bt_did.conf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
