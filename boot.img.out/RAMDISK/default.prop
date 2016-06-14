@@ -1,10 +1,10 @@
 #
 # ADDITIONAL_DEFAULT_PROPERTIES
 #
+ro.adb.secure=0
 ro.secure=0
 ro.allow.mock.location=0
 ro.debuggable=1
-ro.adb.secure=0
 persist.service.acm.enable=0
 ro.mount.fs=EXT4
 debug.hwui.render_dirty_regions=false
@@ -21,6 +21,7 @@ ro.mtk_agps_app=1
 persist.debug.xlog.enable=1
 ro.zygote=zygote64_32
 persist.sys.usb.config=mtp,adb
+camera2.portability.force_api=1
 dalvik.vm.dex2oat-Xms=64m
 dalvik.vm.dex2oat-Xmx=512m
 dalvik.vm.image-dex2oat-Xms=64m

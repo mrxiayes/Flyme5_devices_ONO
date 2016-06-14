@@ -1581,7 +1581,10 @@
     .param p0, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 527
+    const/4 v1, 0x0
+
+    return-object v1
+
     :try_start_0
     const-string v1, "com.android.systemui"
 
@@ -1742,14 +1745,13 @@
     .locals 12
 
     .prologue
-    .line 726
     const/4 v9, 0x0
 
-    .line 727
+    return-object v9
+
     .local v9, "config":Landroid/content/res/ThemeConfig;
     const/4 v0, 0x0
 
-    .line 729
     .local v0, "db":Landroid/database/sqlite/SQLiteDatabase;
     :try_start_0
     const-string v1, "/data/data/com.android.providers.settings/databases/settings.db"
